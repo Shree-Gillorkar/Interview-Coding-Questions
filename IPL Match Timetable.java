@@ -57,7 +57,7 @@ public class IPL {
 			team.add(s);
 			
 		}
-		if(team.size() > 2) {
+		if(team.size() > 2 && team.size()<=12) {
 			System.out.println("Q");
 			test_1.timeTable(team);
 		}
